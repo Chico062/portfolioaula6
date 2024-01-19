@@ -1,0 +1,101 @@
+body{
+    background-color: black;
+    font-family: 'Lilita One', sans-serif;
+    color: white;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.menu_logo{
+    max-width: 150px;
+}
+
+.menu_lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;  
+}
+
+.menu_lista_item{
+    text-decoration: none;
+    font-size: 36px;
+    color: #ec992c;
+    font-family: 'Rubik Burned', system-ui;
+}
+
+.menu_curriculo{
+    background-color: #ec992c;
+    color: white;
+    font-family: 'Rubik Burned', system-ui;
+    font-size: 36px;
+    padding: 10px 20px;
+    border-radius: 20px ;
+    text-decoration: none; 
+}
+
+.banner{
+    background-image: url(https://i.pinimg.com/originals/1b/83/dc/1b83dce6c2a59c92d2dfdd14df85c377.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.banner_info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    height: 70vh;
+    border-radius: 0 0 40px 40px;
+    background-color: rgba(0, 0, 0, 0.712);
+}
+
+.banner_imagem{
+    max-width: 300px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+.banner_nome{
+    font-family: 'Rubik Burned', system-ui;
+    font-size: 40px;
+    color: white;
+
+}
+
+.banner_cargo{
+    font-family: 'Lilita One', sans-serif;
+    font-size: 20px;
+    color: #ec992c;
+
+}
+
+.sobre{
+    max-width: 80vw;
+    margin: 60px auto;
+    border-top: 10px solid #ec992c;
+    border-bottom: 10px solid #ec992c;
+}
+
+.sobre_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.sobre_titulo{
+    font-size: 50px;
+    font-family: 'Press Start 2P', system-ui;
+}
+
